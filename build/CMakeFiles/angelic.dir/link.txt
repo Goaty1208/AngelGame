@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -g -Wl,--dependency-file=CMakeFiles/angelic.dir/link.d CMakeFiles/angelic.dir/src/angelic.cpp.o -o bin/debug/angelic  _deps/raylib-build/raylib/libraylib.a _deps/box2d-build/src/libbox2dd.a -lpthread -ldl -lm /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl
