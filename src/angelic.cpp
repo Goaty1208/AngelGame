@@ -44,6 +44,7 @@ int main(){
     b2CreatePolygonShape(bodyId, &shapeDef, &dynamicBox);
 
     int subStepCount = 80;
+    //It is retarded to tie physics time to dT
     float timeStep = 1.0f / 60.0f;
 
     player Player;
